@@ -1,4 +1,4 @@
-import type {Task} from "@/types";
+import type {Task} from "../types";
 import {api} from "./api";
 
 interface Filter{

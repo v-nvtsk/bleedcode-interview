@@ -6,7 +6,7 @@ import {useSelector} from 'react-redux';
 import {
   BrowserRouter, Route, Routes
 } from 'react-router';
-import {AppHeader} from './components/app-header/app-header';
+import {AppHeader} from './components/app-header';
 import {Unauthorized} from "./components/unauthorized";
 import {
   AuthPage, MainPage, TaskPage,
