@@ -13,5 +13,6 @@ export default defineConfig({
   define: {"import.meta.env.VITE_BASE_URL": JSON.stringify(
     process.env.CI ? "/bleedcode-interview/" : "/",
   ),},
+  base: process.env.CI ? "/bleedcode-interview/" : "/",
   resolve: {alias: {"@": fileURLToPath(new URL("./src", import.meta.url))}},
 });
