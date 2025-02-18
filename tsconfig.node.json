@@ -22,15 +22,6 @@
     "types": [
       "node"
     ],
-    "baseUrl": "./src/",
-    "paths": {
-      "@/*": [
-        "*",
-      ]
-    }
   },
-  "include": [
-    "vite.config.ts"
-  ],
   "composite": true,
 }
