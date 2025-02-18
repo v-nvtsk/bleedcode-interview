@@ -1,7 +1,5 @@
 import {Editor} from "@monaco-editor/react";
-import {TasksApi} from "../../../api/tasks.api";
 import {Task} from "../../../types";
-import {processTags} from "../../../utils/process-tags";
 import {TagsList} from "../../tags-list";
 import style from '../style.module.css';
 
