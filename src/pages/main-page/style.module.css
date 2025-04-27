@@ -1,0 +1,7 @@
+.mainContent {
+  /* height: calc(100vh - var(--header-height)); */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,9 @@
+:root {
+  --header-height: 60px;
+}
+
+body,
+html,
+#root {
+  height: 100vh;
+}
